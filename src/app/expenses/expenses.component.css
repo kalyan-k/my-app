@@ -1,0 +1,24 @@
+.form-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  z-index: 3;
+  top: 60px;
+  background-color: white;
+}
+
+.form-body {
+  padding-top: 50px;
+}
+
+ul.app-tool-area {
+  margin-left: 0px;
+  list-style: none;
+  white-space: nowrap;
+}
+
+ul.app-tool-area > li {
+  display: inline-block;
+}

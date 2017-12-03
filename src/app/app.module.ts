@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app.routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ExpensesComponent } from './expenses/expenses.component';
 import { ExpensesListComponent } from './expenses-list/expenses-list.component';
+import { DataTableModule } from 'angular-4-data-table/src/index';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ExpensesListComponent } from './expenses-list/expenses-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DataTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
